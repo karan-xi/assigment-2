@@ -1,0 +1,174 @@
+/*Karan Patel 8911445*/
+html{
+    font: normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0 auto;
+    font: 1em Arial, sans-serif;
+    padding: 1em;
+    background-color: rgb(156, 252, 209);
+    display: flex;
+flex-direction: column;
+
+}
+
+header, footer{
+    border: 0.5rem solid #ffb8b8;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #7F7FD5 + #91EAE4;
+    background-image: linear-gradient(rgb(125, 96, 158), rgb(139, 217, 246));
+}
+
+h1, h2 {
+    color: #336699;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+.structural{
+    margin : 1rem;
+    padding : 1rem;
+    border : 0.1rem solid black;
+}
+
+footer p {
+    font-size: 1em;
+    color: #0339fa;
+
+}
+
+
+main {
+    flex: 2 1 70%;
+    background-color: hsl(208, 73%, 71%);
+}
+
+aside {
+    padding: 1em;
+    flex: 1 1 30%;
+    background-color: hsl(67, 58%, 68%);
+    background-image: url(images/https://imgs.search.brave.com/3ChOv_Xba5s3ufP2NlNJLvSkQ5S-jUx5XiIOLjifpaQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5OTAw/MTAuanBn-tendulkar.webp)
+}
+
+
+.mainimg img {
+    border: 0.75em solid #925de0;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+aside ul li {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+aside ul > li > a {
+    text-decoration: none;
+    color: #72aae3;
+}
+aside, a:hover{
+    color: #fc2;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+nav ul li a {
+    color: indigo;
+    border: 0.1em solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 0.25rem;
+}
+nav ul li a:hover{
+    color: cornsilk;
+    background-color: indigo;
+    border-color: cornsilk;
+}
+table {
+    border-collapse: collapse;
+    caption-side: top;
+    border: 0.5rem solid #000000;
+}
+caption{
+    color: cornflowerblue;
+    font-weight: 400;
+}
+tr{
+border-bottom: 0.2em solid green;
+}
+th {
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+}
+td{
+padding: 0.5rem 0.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    
+}
+img{
+    clip-path: polygon(0% 0%, 100% 3%, 98% 99%,3% 93%);
+}
+form {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+section{
+    display: block;
+}
